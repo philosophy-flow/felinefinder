@@ -1,0 +1,148 @@
+/* GENERAL */
+body {
+  background-color: #62959c;
+  font-family: "Montserrat";
+}
+
+/* HEADER */
+.header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1.25rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+
+/* BANNER */
+.banner {
+  color: white;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.banner h1 {
+  font-size: 3.75rem;
+}
+
+.button-holder {
+  text-align: center;
+  padding: 4%;
+}
+
+.button-holder button {
+  margin: 10px;
+}
+
+.banner-img {
+  max-width: 100%;
+  border-radius: 7px;
+  transform: rotate(5deg);
+}
+
+
+/* ABOUT */
+.about {
+  background-color: white;
+  color: black;
+  padding: 70px 20%;
+  text-align: center;
+}
+
+.about i {
+  margin: 10px;
+  color: #629c99;
+}
+
+.about i:hover {
+  color: #6aa8a5;
+}
+
+.about p {
+  color: #8f8f8f;
+}
+
+.about-span {
+  text-decoration: line-through;
+}
+
+/* ENDORSEMENTS */
+.carousel-item {
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.carousel-item p {
+  font-size: 2.25rem;
+  text-align: center;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.carousel-item img {
+  width: 100px;
+  padding: 7px;
+}
+
+.carousel-item span {
+  font-style: italic;
+}
+
+
+
+@media (max-width: 1024px) {
+  .banner {
+    color: white;
+    width: 80%;
+    margin-top: 0;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  hr {
+    margin: 0;
+  }
+
+  .banner-img {
+    transform: rotate(0);
+  }
+}
+
+@media (max-width: 450px) {
+  .banner h1 {
+    font-size: 2.8rem;
+  }
+
+  .carousel-item p {
+    font-size: 1.75rem;
+    text-align: center;
+    max-width: 500px;
+    margin: 10px auto;
+  }
+
+  .carousel-item img {
+    width: 85px;
+    padding: 7px;
+  }
+
+  .carousel-item span {
+    font-style: italic;
+    font-size: .7rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .navbar-brand {
+    font-size: 1.6rem;
+  }
+}
