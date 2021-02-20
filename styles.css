@@ -101,6 +101,7 @@ body {
   background-color: white;
   padding: 75px 25px;
 }
+
 .pricing h2 {
   color: black;
   font-weight: bold;
@@ -125,13 +126,23 @@ body {
   padding: 10px;
 }
 
+/* CTA */
+.call-to-action {
+  padding: 150px 4%;
+}
+
+.call-to-action h2 {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+}
 
 
 
 
 
-
-
+/* MEDIA QUERIES */
 @media (max-width: 1024px) {
   .banner {
     color: white;
@@ -172,6 +183,18 @@ body {
   .carousel-item span {
     font-style: italic;
     font-size: .7rem;
+  }
+
+  .pricing h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 2.25rem;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .call-to-action h2 {
+    font-size: 2rem;
   }
 }
 
