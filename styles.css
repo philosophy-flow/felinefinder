@@ -96,6 +96,40 @@ body {
   font-style: italic;
 }
 
+/* PRICING */
+.pricing {
+  background-color: white;
+  padding: 75px 25px;
+}
+.pricing h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  padding: 15px;
+}
+
+.pricing .card {
+  margin: 10px;
+  text-align: center;
+}
+
+.pricing h5, h6 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.pricing li {
+  color: #8f8f8f;
+  list-style: none;
+  padding: 10px;
+}
+
+
+
+
+
+
 
 
 @media (max-width: 1024px) {
