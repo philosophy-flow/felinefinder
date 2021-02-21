@@ -138,6 +138,18 @@ body {
   font-size: 3rem;
 }
 
+/* FOOTER */
+.footer {
+  background-color: white;
+  padding: 35px;
+  text-align: center;
+  font-size: .85rem;
+}
+
+.footer i {
+  padding: 4px;
+}
+
 
 
 
