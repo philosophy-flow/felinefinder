@@ -120,6 +120,11 @@ body {
   font-weight: bold;
 }
 
+.pricing ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
 .pricing li {
   color: #8f8f8f;
   list-style: none;
@@ -162,7 +167,7 @@ body {
     margin-top: 0;
   }
 
-  h1 {
+  .banner h1 {
     text-align: center;
   }
 
